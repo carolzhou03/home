@@ -1,0 +1,260 @@
+/*General Styling*/
+
+.paragraphborder
+{
+	margin: 20px 7px;
+	border-style: solid;
+	border-color: #808080/*medium grey*/;
+} /*end of rule for class paragraphborder for separating paragraphs with medium grey border*/
+
+.descriptionheading
+{
+	text-align: center;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 35px;
+} /*end of rule for class descriptionheading for paragraph headings*/
+
+.description
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for class description for all descriptive paragraphs*/
+
+.subdescription
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for class subdescription for descriptions of all subtopics*/
+
+.mainheading
+{
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 45px;
+} /*end of rule for class mainheading for all page title headings*/
+
+/*Index Page*/
+
+#logo
+{
+	display: block; 
+	margin: 20px auto;
+} /*end of rule for image id logo*/
+
+#backgroundcastle
+{
+	margin: 15px 7px 0px/*top margin 15px, left and right margins 7px, bottom margin 0px*/;
+} /*end of rule for image id background castle*/
+
+#awards
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for unordered list of awards*/
+
+.indexsubhead
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 29px;
+} /*end of rule for all subheadings in index page*/
+
+#presidents
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for ordered list of presidents*/
+
+#ceos
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for ordered list of CEO's*/
+
+
+#carolz /*image of Carol*/
+{
+	transform: rotate(90deg);
+	margin-right: 10px;
+	float: right;
+} /*end of rule for image id carolz*/
+
+/*Navigation Bar*/
+
+.navigationbar
+{
+	list-style-type: none/*no bullet points*/; 
+	margin: 7px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #d1e2ff/*light blue*/; 
+} /*end of rule for unordered list id navigationbar for navigation bar*/
+
+.navihead 
+{
+	display: block;
+	font-size: 30px;
+	display: inline/*displays all list items on a single line*/;
+	font-family: Georgia, serif;
+} /*end of rule for list item*/
+
+li a
+{
+	float: left;
+	display: block;
+    padding: 2.5px 18px 35px;
+    color: white;
+	text-decoration: none/*no underline for links*/; 
+	height: 40px;
+} /*end of rule for list item links*/
+
+.navigation a:hover 
+{
+	background-color: #a4bee8/*medium blue*/;/*when hovered over, the background colour of the link becomes medium blue*/
+}
+
+.activenavi
+{
+	background-color: #a4bee8/*medium blue*/;/*the link for the page (on the navigation bar) that the viewer is on is medium blue*/
+	height: 12px;
+} /*end of rule for class active*/
+
+.navigationlink
+{
+	height: 12px;
+} /*end of rule for class navi for navigation bar links*/
+
+/*Footer*/
+
+.footerlink
+{
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 17px;
+}
+
+/*Who was Walt Disney Page*/
+
+#walter
+{
+	margin-left: 10px;
+	float: right;
+}
+
+.waltsubhead
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 29px;
+} /*end of rule for heading class waltsubhead for minor subheadings about Walt Disney*/
+
+.waltsubsubhead
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 25px;
+} /*end of rule for heading class waltsubsubhead for subheadings under minor subheadings about Walt Disney*/
+
+/*Walt Disney Studios Page*/
+
+#filmstudios
+{
+	margin: 15px 7px 0px/*top margin 15px, left and right margins 7px, bottom margin 0px*/;
+} /*end of rule for image filmstudios*/
+
+#filmtable
+{
+	margin: 5px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for table of films*/
+
+.filmtablecell
+{
+	width: 150px;
+} /*end of rule for cells of table of films*/
+
+.filmimg
+{
+	margin: 25px;
+} /*end of rule for movie poster images*/
+
+/*Attractions Page*/
+
+#parksbackground
+{
+	margin: 15px 7px 0px;
+}
+
+#disneyparks
+{
+	text-align: center;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 35px;
+}
+
+.park
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 29px;
+} /*end of rule for class park for headings of all Disney Parks*/
+
+/*References Page*/
+
+.apareference
+{
+	margin-right: 25px;
+	margin-left: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for class apareference for reference list items*/
+
+/*Glossary Page*/
+
+#definitions
+{
+	text-align: center;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 35px;
+} /*end of rule for definitions heading*/
+
+.definition
+{
+	margin: 25px;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for definitions in glossary*/
+
+.term
+{
+	color: red;
+}
