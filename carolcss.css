@@ -209,7 +209,21 @@ li a
 	font-family: Georgia, serif;
 	font-size: 20px;
 	line-height: 25px;
+	border: solid;
+	border-color: #808080/*medium grey*/;
 } /*end of rule for table of films*/
+
+tr
+{
+	border: solid;
+	border-color: #808080/*medium grey*/;
+} /*end of rule for table of films headings*/
+
+td
+{
+	border: solid;
+	border-color: #808080/*medium grey*/;
+} /*end of rule for table of films data*/
 
 .filmtablecell
 {
