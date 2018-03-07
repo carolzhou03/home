@@ -33,6 +33,15 @@
 	line-height: 25px;
 } /*end of rule for class subdescription for descriptions of all subtopics*/
 
+.glossaryterms
+{
+	text-align: center;
+	color: #808080/*medium grey*/;
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 25px;
+} /*end of rule for glossary terms identification in index, whowaswaltdisney, waltdisneystudios, attractions*/
+
 .mainheading
 {
 	text-align: center;
