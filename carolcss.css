@@ -92,8 +92,7 @@
 #carolz /*image of Carol*/
 {
 	transform: rotate(90deg);
-	margin-right: 10px;
-	float: right;
+	margin: 20px auto;
 } /*end of rule for image id carolz*/
 
 /*Navigation Bar*/
@@ -135,6 +134,19 @@ li a
 	background-color: #a4bee8/*medium blue*/;/*the link for the page (on the navigation bar) that the viewer is on is medium blue*/
 	height: 12px;
 } /*end of rule for class active*/
+
+#activeindex
+{
+	background-color: #a4bee8/*medium blue*/;/*the link for the page (on the navigation bar) that the viewer is on is medium blue*/
+	height: 12px;
+	width: 50px;
+} /*end of rule for when user is on index page*/
+
+.indexlink
+{
+	height: 12px;
+	width: 50px;
+} /*end of rule for index page relative external link on all pages except for index*/
 
 .navigationlink
 {
@@ -183,7 +195,7 @@ li a
 
 #filmtable
 {
-	margin: 5px;
+	margin: 25px;
 	color: #808080/*medium grey*/;
 	font-family: Georgia, serif;
 	font-size: 20px;
@@ -192,7 +204,7 @@ li a
 
 .filmtablecell
 {
-	width: 150px;
+	width: 100px;
 } /*end of rule for cells of table of films*/
 
 .filmimg
